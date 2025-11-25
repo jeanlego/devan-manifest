@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <default revision="scarthgap" sync-j="4"/>
+  <default remote="origin" revision="scarthgap" sync-j="4"/>
   <remote name="origin"      fetch="ssh://git@github.com"/>
   <remote name="yp"          fetch="https://git.yoctoproject.org"/>
-  <remote name="oe"          fetch="https://github.com/openembedded"/>
-  <remote name="kraj"        fetch="https://github.com/kraj"/>
-
-  <remote name="community"   fetch="https://github.com/Freescale"/>
-  <remote name="ossystems"   fetch="https://github.com/OSSystems"/>
-  <remote name="timesys"     fetch="https://github.com/TimesysGit"/>
-
-  <remote name="imx"         fetch="https://github.com/nxp-imx"/>
-  <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
 
   <project name="poky" remote="yp" path="sources/poky" revision="f43f393ef0246b7bee6eed8bcf8271cf2b8cdf40" upstream="scarthgap"/>
   <project name="openembedded/meta-openembedded" path="sources/meta-openembedded" revision="80e01188fa822d87d301ee71973c462d7a865493" upstream="scarthgap"/>
